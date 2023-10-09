@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kanika - developer portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+     
+        <div class="bor-der">
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <i class="fa-solid fa-bars"></i>
+                 
+                </button>
+               
+                <div class="dropdown-content">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+        <div class="Home-content">
+            <h3>Hello, It's Me </h3>
+
+            <h1>Kanika Singh</h1>
+            <h3>And I'm a</h3>
+            <span id="element"></span>
+            <div class="social-media">
+                <a href="https://github.com/kanikasingh4"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kanika-singh-6a0a1b274/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/k_a.n.i.k.a/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="home.png" alt="">
+        </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer', 'Website Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+        <div class="home-img">
+            <img src="about.png" alt="">
+        </div>
+        <div class="About-content">
+            <h2 class="heading">About <span>Me</span></h2>
+
+            <p>hey! I'm a beginner in the vocation of devlopment and designing of the websites. I'm an able,
+                enthusiastic, skilled, and reliable frontend developer and website designer seeking for a position that
+                reflects my skills and personal attributes including dedication,meeting goals,creativity and the ability
+                to follow through.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- service section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam atque voluptatum doloremque velit
+                    iusto harum tenetur, consequatur quisquam! Earum beatae consequatur animi quisquam dolorum maiores
+                    vero dicta accusantium explicabo quis.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-video"></i>
+                <h3>Video Editing</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam atque voluptatum doloremque velit
+                    iusto harum tenetur, consequatur quisquam! Earum beatae consequatur animi quisquam dolorum maiores
+                    vero dicta accusantium explicabo quis.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h3>Graphic Designer</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam atque voluptatum doloremque velit
+                    iusto harum tenetur, consequatur quisquam! Earum beatae consequatur animi quisquam dolorum maiores
+                    vero dicta accusantium explicabo quis.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"> Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="shoping.jpg" alt="">
+                <div class="portfolio-layer">
+                    
+                    <p>This is the clone of the landing page of <span>Amazon.com</span>. this is design by using CSS and
+                        HTML.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+            <img src="movie.jpg" alt="">
+            <div class="portfolio-layer">
+                
+                <p>This is the clone of the landing page of <span>Amazon prime video</span>. this is design by using CSS and
+                    HTML.
+                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+        <img src="weather.jpg" alt="">
+        <div class="portfolio-layer">
+        
+            <p>This is the  <span>Weather Website</span>. this is design by using CSS ,JS and
+                HTML.            </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+    </div>
+    <div class="portfolio-box">
+        <img src="temperature-conversion.webp" alt="">
+        <div class="portfolio-layer">
+         
+            <p>This is the  <span>Temperature conversion Website</span>. this is design by using CSS ,JS and
+                HTML.            </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+    </div>
+        </div>
+    </section>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading"> Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Messages"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+        </form>
+        </section>
+        <!-- footer design -->
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by KS | All Rights Reserved.</p>
+            </div>
+            <div class="footer-icon">
+                <a href="#"> <i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+        </footer>
+</body>
+
+</html>
